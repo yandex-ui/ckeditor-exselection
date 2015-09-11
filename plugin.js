@@ -60,7 +60,7 @@
                 range.moveToElementEditStart(range.root);
                 this.getSelection().selectRanges([ range ]);
             }
-        }
+        },
 
         selectionToEnd: function() {
             if (this.readOnly ||
@@ -129,5 +129,5 @@
             range.select();
         }
     }
-    
+
 }());
